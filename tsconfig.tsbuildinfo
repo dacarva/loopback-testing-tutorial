@@ -1992,13 +1992,13 @@
         "affectsGlobalScope": false
       },
       "./src/__tests__/unit/controllers/todo.controller.unit.ts": {
-        "version": "5c57ef1928439903867ee68f3105ebc2e8d2eb5389a8c98ec211fd9a1ccd77ed",
+        "version": "d88a65799fb6346caed30326d4a6cbb0fa924c99839e921f3eae3ed170c5a56d",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/bcryptjs/index.d.ts": {
-        "version": "9dfe431ab1485e17a6055e186c49da9d23af74b965f2e99f8acc6c958778608f",
-        "signature": "9dfe431ab1485e17a6055e186c49da9d23af74b965f2e99f8acc6c958778608f",
+      "./node_modules/@types/bn.js/index.d.ts": {
+        "version": "bc6dd50ac2fc9a7ca6488811b116bd0ddd606338db0bb97852c8fcf757e2d7f5",
+        "signature": "bc6dd50ac2fc9a7ca6488811b116bd0ddd606338db0bb97852c8fcf757e2d7f5",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/fs-extra/index.d.ts": {
@@ -2024,6 +2024,16 @@
       "./node_modules/@types/on-finished/index.d.ts": {
         "version": "c69767317aec528b574762b18727db85eef7cf66f33617cc0ee905cbe5a43d97",
         "signature": "c69767317aec528b574762b18727db85eef7cf66f33617cc0ee905cbe5a43d97",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/pbkdf2/index.d.ts": {
+        "version": "a73a445c1e0a6d0f8b48e8eb22dc9d647896783a7f8991cbbc31c0d94bf1f5a2",
+        "signature": "a73a445c1e0a6d0f8b48e8eb22dc9d647896783a7f8991cbbc31c0d94bf1f5a2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/secp256k1/index.d.ts": {
+        "version": "26edf4435648f73b2b5ccc07f3159fea08b46b20e5230f95e57f6b62e388d2b2",
+        "signature": "26edf4435648f73b2b5ccc07f3159fea08b46b20e5230f95e57f6b62e388d2b2",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/type-is/index.d.ts": {
@@ -3274,6 +3284,9 @@
       "./node_modules/@loopback/testlab/dist/sinon.d.ts": [
         "./node_modules/@types/sinon/index.d.ts"
       ],
+      "./node_modules/@types/bn.js/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
       "./node_modules/@types/body-parser/index.d.ts": [
         "./node_modules/@types/connect/index.d.ts",
         "./node_modules/@types/node/http.d.ts",
@@ -3637,6 +3650,12 @@
       ],
       "./node_modules/@types/on-finished/index.d.ts": [
         "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/pbkdf2/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/secp256k1/index.d.ts": [
         "./node_modules/@types/node/index.d.ts"
       ],
       "./node_modules/@types/serve-static/index.d.ts": [
@@ -5120,6 +5139,9 @@
       "./node_modules/@loopback/testlab/dist/sinon.d.ts": [
         "./node_modules/@types/sinon/index.d.ts"
       ],
+      "./node_modules/@types/bn.js/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
       "./node_modules/@types/body-parser/index.d.ts": [
         "./node_modules/@types/connect/index.d.ts",
         "./node_modules/@types/node/http.d.ts",
@@ -5483,6 +5505,12 @@
       ],
       "./node_modules/@types/on-finished/index.d.ts": [
         "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/pbkdf2/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/secp256k1/index.d.ts": [
         "./node_modules/@types/node/index.d.ts"
       ],
       "./node_modules/@types/serve-static/index.d.ts": [
@@ -5913,7 +5941,7 @@
       "./node_modules/@loopback/testlab/dist/to-json.d.ts",
       "./node_modules/@loopback/testlab/dist/validate-api-spec.d.ts",
       "./node_modules/@loopback/testlab/should-as-function.d.ts",
-      "./node_modules/@types/bcryptjs/index.d.ts",
+      "./node_modules/@types/bn.js/index.d.ts",
       "./node_modules/@types/body-parser/index.d.ts",
       "./node_modules/@types/connect/index.d.ts",
       "./node_modules/@types/cookiejar/index.d.ts",
@@ -5986,8 +6014,10 @@
       "./node_modules/@types/node/worker_threads.d.ts",
       "./node_modules/@types/node/zlib.d.ts",
       "./node_modules/@types/on-finished/index.d.ts",
+      "./node_modules/@types/pbkdf2/index.d.ts",
       "./node_modules/@types/qs/index.d.ts",
       "./node_modules/@types/range-parser/index.d.ts",
+      "./node_modules/@types/secp256k1/index.d.ts",
       "./node_modules/@types/serve-static/index.d.ts",
       "./node_modules/@types/shot/index.d.ts",
       "./node_modules/@types/sinon/index.d.ts",

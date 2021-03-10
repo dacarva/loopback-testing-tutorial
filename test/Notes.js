@@ -31,6 +31,8 @@ contract('Notes', ([deployer, author]) => {
     let noteCount;
 
     before(async () => {
+      //Create a note
+
       result = await notes.createNote(
         'This is my first note',
         'I have to code in Besu',
@@ -42,8 +44,10 @@ contract('Notes', ([deployer, author]) => {
     });
 
     it('Creates a note', async () => {
+      //increase the number of notecount
       assert.equal(noteCount, 1);
       const event = result.logs[0].args;
+      //Check the ID, title and description
       assert.equal(event.id.toNumber(), noteCount.toNumber(), 'Id is correct');
       assert.equal(event.title, 'This is my first note', 'Title is correct');
       assert.equal(
@@ -51,9 +55,6 @@ contract('Notes', ([deployer, author]) => {
         'I have to code in Besu',
         'Description is correct',
       );
-
-      //Create a note
-      //increase the number of notecount
     });
   });
 });

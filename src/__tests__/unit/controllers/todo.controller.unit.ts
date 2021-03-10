@@ -46,9 +46,15 @@ describe('TodoController', () => {
       const create = todoRepo.stubs.create;
       create.resolves(aTodoWithId);
       const result = await controller.create(aTodo);
+      //TODO: MIRAR AQUí
+      console.log(
+        '🚀 ~ file: todo.controller.unit.ts ~ line 49 ~ it ~ result',
+        result,
+      );
       expect(result).to.eql(aTodoWithId);
       sinon.assert.calledWith(create, aTodo);
     });
+    //TODO: =============
 
     it('resolves remindAtAddress to a geocode', async () => {
       const create = todoRepo.stubs.create;
